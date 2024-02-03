@@ -1,0 +1,17 @@
+﻿using Core;
+
+namespace Core
+{
+    using System;
+
+    using System.IO;
+
+    public partial struct ExpressionxportablemoduleUnit
+    {
+        public String[] ModuleArray;
+
+        public DirectoryInfo[] DirectoryInfoArray;
+
+        public FileInfo[] FileInfoArray;
+    }
+}
